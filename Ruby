@@ -1,0 +1,64 @@
+
+# Youtube tutorial -> https://www.youtube.com/watch?v=xyDoP5a_dvo
+# Codeacademy course -> https://www.codecademy.com/learn/learn-ruby
+
+# Day 1
+# load 'second.rb'
+# puts "Hello, World!"
+# p "Dhruv Sharma"
+# load 'second.rb'
+# print"New language"
+# puts " Learning"
+
+#Comments
+
+=begin
+name="Dhruv Sharma"
+puts name
+num=15
+cond=true
+# p name,num,cond
+puts"Hello #{name}"
+=end
+
+#Taking User Inputs
+
+=begin
+puts "Enter your name"
+name=gets.chomp
+puts "Enter your ID"
+id=gets.chomp.to_i
+puts "Hello #{name}. Your ID is #{id}"
+=end
+
+
+#Strings
+#Multiline String 
+
+=begin
+str1="This is a String"
+str2='This is another String'
+puts str1
+puts str2
+
+str3="This is a 
+multiline 
+String"
+puts str3
+
+str4=%/This is 
+my String/
+  puts str4
+=end
+
+#String Properties
+
+=begin
+str5="hello"
+s=str5.reverse
+puts str5.size
+puts str5.length
+
+puts str5.upcase
+puts str5.downcase
+=end
