@@ -119,3 +119,9 @@ x+=10
 puts "#{x}"
 end
 =end
+
+# .times iterator
+
+=begin
+10.times{puts "Hello"}            #it can perform a task on each item in an object a specified number of times
+=end
