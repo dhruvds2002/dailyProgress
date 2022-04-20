@@ -89,3 +89,11 @@ while counter < 11
   counter = counter + 1           # ++ and -- can't be used in Ruby
 end
 =end
+
+# For Loop Syntax
+
+=begin
+for num in 1..15                  #   .. includes last number whereas ... excludes last element
+  puts num
+end
+=end
