@@ -97,3 +97,15 @@ for num in 1..15                  #   .. includes last number whereas ... exclud
   puts num
 end
 =end
+
+# Loop Method, Next, Break
+
+=begin
+i = 20
+loop do
+  i -= 1
+  next if i%2!=0                  # next keyword is same as continue
+  print "#{i}"
+  break if i <= 0
+end
+=end
