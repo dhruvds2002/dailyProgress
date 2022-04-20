@@ -86,6 +86,6 @@ puts "Your string is: #{user_input}"
 counter = 1
 while counter < 11
   puts counter
-  counter = counter + 1
+  counter = counter + 1           # ++ and -- can't be used in Ruby
 end
 =end
