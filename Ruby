@@ -61,4 +61,19 @@ puts str5.length
 
 puts str5.upcase
 puts str5.downcase
+puts s.capitalize!   #To k=make first letter capital
+=end
+
+#Day2 
+=begin
+print "Thtring, pleathe!: "
+user_input = gets.chomp
+user_input.downcase!
+
+if user_input.include? "s"
+  user_input.gsub!(/s/, "th")
+else
+  puts "Nothing to do here!"
+end
+puts "Your string is: #{user_input}"
 =end
