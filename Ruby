@@ -65,6 +65,8 @@ puts s.capitalize!   #To k=make first letter capital
 =end
 
 #Day2 
+# Replacing string with other String
+
 =begin
 print "Thtring, pleathe!: "
 user_input = gets.chomp
@@ -76,4 +78,14 @@ else
   puts "Nothing to do here!"
 end
 puts "Your string is: #{user_input}"
+=end
+
+#Loops
+# While Loop Syntax
+=begin
+counter = 1
+while counter < 11
+  puts counter
+  counter = counter + 1
+end
 =end
