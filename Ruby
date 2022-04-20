@@ -125,3 +125,15 @@ end
 =begin
 10.times{puts "Hello"}            #it can perform a task on each item in an object a specified number of times
 =end
+
+
+# Hashes
+# Syntax
+
+=begin
+hash = {
+  key1 => value1,
+  key2 => value2,
+  key3 => value3
+}
+=end
